@@ -1,0 +1,58 @@
+/* share style */
+
+
+.fira-code{
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(circle at 20% 30%, rgba(199, 120, 221, 0.15), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.08), transparent 40%),
+        linear-gradient(28.96%, #1f242d, #2b313d, #3a3f4b);
+
+    background-color: #1f242d;
+ }   
+
+ /* main style */
+
+ .box-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+ }
+
+ .box{
+    border:3px solid #ABB2BF;
+
+ }
+
+ .box h2{
+    color: #ffffff;
+    text-align:center;
+    border-bottom:3px solid #ABB2BF ;
+    font-size: 1.5rem;
+    opacity: 100%;
+    font-weight: 500;
+    padding-bottom: 5px;
+ }
+
+ .box p{
+    color: #ABB2BF;
+ }
+
+ .box img{
+    border-bottom:3px solid #ABB2BF ;
+    width: 100%;
+ }
+
+ button{
+    border: 3px solid #C778DD;
+ }
