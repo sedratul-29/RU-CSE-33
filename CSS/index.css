@@ -21,6 +21,33 @@ body {
 
 /* main style */
 
+/* header style */
+
+header {
+   width: 100%;
+}
+
+.header-box {
+   display: flex;
+   align-items: center;
+}
+
+.header-box h1 {
+   color: #FFFFFF;
+   margin-left: 40px;
+}
+
+.asterisk {
+   color: #C778DD;
+}
+
+hr {
+   width: 100%;
+   color: #C778DD;
+   margin-bottom: 50px;
+}
+
+/* section style */
 .box-container {
    max-width: 1400px;
    margin: 0 auto;
@@ -59,11 +86,11 @@ body {
 
 button {
    border: 2px solid #C778DD;
-   font-size: 16px; 
+   font-size: 16px;
    font-weight: 500;
-   padding:5px 20px;
+   padding: 5px 20px;
    color: #FFFFFF;
-      background:
+   background:
       radial-gradient(circle at 20% 30%, rgba(199, 120, 221, 0.15), transparent 40%),
       radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.08), transparent 40%),
       linear-gradient(28.96%, #1f242d, #2b313d, #3a3f4b);
@@ -81,4 +108,8 @@ button a {
    gap: 5px;
 }
 
-
+.box img {
+   width: 100%;
+   height: 320px;
+   border-bottom: 3px solid #ABB2BF;
+}
