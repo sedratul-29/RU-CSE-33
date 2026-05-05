@@ -35,6 +35,57 @@ header {
 .header-box h1 {
    color: #FFFFFF;
    margin-left: 40px;
+   opacity: 100%;
+}
+
+.typing {
+   color: #FFFFFF;
+   width: 0;
+   overflow: hidden;
+   white-space: nowrap;
+   animation: typing 4s steps(30) forwards, blink 0.7s infinite;
+   margin-left: 55px;
+}
+
+@keyframes typing {
+   to {
+      width:33ch;
+   }
+}
+
+@keyframes blink {
+   50% {
+      border-color: transparent;
+   }
+}
+
+/* .typing { 
+  background: linear-gradient(90deg, red, blue, green);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+} */
+
+
+.typing:hover {
+  transform: scale(0.95);
+  color:#C778DD;
+  transition: 0.3s;
+}
+
+.title{
+   color: #C778DD;
+   margin-left: 55px;
 }
 
 .asterisk {
@@ -112,4 +163,10 @@ button a {
    width: 100%;
    height: 320px;
    border-bottom: 3px solid #ABB2BF;
+}
+
+@media screen and (max-width: 576px) {
+   .box-container {
+      grid-template-columns: 1fr;
+   }
 }
