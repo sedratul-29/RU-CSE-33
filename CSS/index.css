@@ -166,7 +166,7 @@ button a {
    gap: 5px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
    .header-box {
       flex-wrap: wrap;
    }
